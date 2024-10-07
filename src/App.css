@@ -1,0 +1,8 @@
+.hide-scrollbar {
+    scrollbar-width: none; /* Для Firefox */
+    -ms-overflow-style: none;  /* Для Internet Explorer та Edge */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none; /* Для Chrome, Safari та Opera */
+}
